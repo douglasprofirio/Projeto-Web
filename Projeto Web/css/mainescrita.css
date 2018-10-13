@@ -1,0 +1,141 @@
+@font-face{
+    font-family: "Deadhead Script";
+    src: url(../assets/Deadhead\ Script.ttf);
+}
+
+@font-face{
+    font-family: "Allura";
+    src: url(../assets/Allura-Regular.ttf);
+}
+
+body {
+    background-image: url(../Images/apple-device-ballpens-cellphone-257875.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: Deadhead Script;
+    font-size: 60px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.cabecalho {
+    height: 100px;
+    background-color: #0C0A26;
+}
+
+.menu {
+    height: 50px;
+    font-family: sans-serif;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000dc;
+}
+
+.redirect {
+    float: right;
+    font-size: 16px;
+}
+
+.redirect a {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.user {
+    background: url(../images/user.jpg);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    float: right;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.titulo-secundario {
+    font-size: 24px;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: italic;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#editor1 {
+    height: 800;
+}
+
+.inline {
+    display: inline;
+}
+
+.entrar {
+    width: 300px;
+    line-height: 40px;
+    border-radius: 50px;
+    padding: 0 15px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.post {
+    width: 120px;
+    margin: 30px;
+}
+
+.width {
+    width: 150px;
+}
+
+.rodape {
+    background-color: rgba(28, 28, 27, 0.884);
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+}

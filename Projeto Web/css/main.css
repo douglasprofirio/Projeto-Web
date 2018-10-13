@@ -1,0 +1,325 @@
+@font-face{
+    font-family: "Deadhead Script";
+    src: url(../assets/Deadhead\ Script.ttf);
+}
+
+@font-face{
+    font-family: "Allura";
+    src: url(../assets/Allura-Regular.ttf);
+}
+
+body {
+    background-image: url(../Images/composition-document-font-355713.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.home-aluno {
+    background: url(../images/pexels-photo.jpg);
+    background-size: cover;
+}
+
+.mural {
+    background: url(../images/apple-device-ballpens-cellphone-257875.jpg);
+    background-size: cover;
+}
+
+.cabecalho {
+    height: 100px;
+    background-color: #0C0A26;
+}
+
+.titulo {
+    font-family: "Deadhead Script";
+    font-size: 60px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.login,
+.recuperarAcesso {
+    font-family: "Allura";
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.campos,
+.entrar,
+.enviar,
+.button {
+    width: 300px;
+    line-height: 40px;
+    border-radius: 50px;
+    padding: 0 15px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+}
+
+.menu {
+    height: 50px;
+    font-family: sans-serif;
+}
+
+.user,
+.add {
+    background: url(../images/user.jpg);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    float: right;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.add {
+    background: url(../images/add.png);
+    background-size: cover;
+}
+
+.ancora {
+    text-align: center;
+    margin: 35px;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000dc;
+}
+
+.redirect {
+    float: right;
+    font-size: 16px;
+}
+
+.redirect a {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.enviar,
+.recuperarAcesso {
+    margin-top: 50px;
+}
+
+.register {
+    font-family: Allura;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+.enviar {
+    width: 200px;
+}
+
+.radio,
+.inline {
+    display: inline;
+}
+
+.home {
+    color: white;
+}
+
+.home,
+.go,
+.info {
+    font-family: Source Sans Pro;
+}
+
+.apresentacao {
+    display: inline-block;
+    width: 35%;
+    margin: 5%;
+    text-align: center;
+    font-style: italic;
+}
+
+.go {
+    float: right;
+}
+
+.text {
+    line-height: 100%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button {
+    margin: 20px;
+    width: 200px;
+}
+
+.space {
+    margin: 50px;
+}
+
+.radio {
+    font-family: sans-serif;
+}
+
+.titulo-secundario {
+    font-size: 30px;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: italic;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.professores,
+.flex,
+.entregas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.codigo {
+    background: rgba(255, 255, 255, 0.7);
+    width: 450px;
+    height: 50px;
+    font-family: Source Sans Pro, sans-serif;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.text-codigo {
+    line-height: 0px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.center {
+    text-align: center;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.in {
+    width: 120px;
+    height: 40px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.size {
+    font-size: 20px;
+}
+
+table {
+    margin-right: 15%;
+    margin-left: 15%;
+    border-spacing: 20px;
+}
+
+.post {
+    width: 120px;
+    margin: 30px;
+}
+
+.cod {
+    background: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.code {
+    width: 120px;
+    font-family: sans-serif;
+}
+
+#genero,
+#material {
+    height: 40px;
+}
+
+.prodution {
+    display: inline-block;
+    width: 35%;
+    margin: 5%;
+    text-align: center;
+    font-style: italic;
+}
+
+.width {
+    width: 150px;
+}
+
+.entregas {
+    padding: 0;
+    line-height: 0;
+}
+
+.anexos {
+    background: url(../images/anexo.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.txt {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 50px;
+    width: 300px;
+}
+
+.rodape {
+    background-color: rgba(28, 28, 27, 0.884);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.relative {
+    position: relative;
+}

@@ -1,0 +1,109 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.ckeditor.com/4.8.0/full-all/ckeditor.js"></script>
+    <title>Plataforma Web para o Ensino e Produção de Textos</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/mainescrita.css" />
+    <link href="./assets/Allura-Regular.ttf">
+    <link  href="./assets/Deadhead Script.ttf">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Studing Genres</h1>
+    </header>
+
+    <div class="menu">
+        <nav class="menuPrincipaL">
+            <ul class="links">
+                <li class="redirect left"><a href="index-professores.html">Home</a></li>
+                <li class="redirect left"><a href="index-inserirCodigo.html">Inserir Código</a></li>
+                <li class="redirect left"><a href="index-professores.html">Professores</a></li>
+                <li class="redirect"><a href="#">Sair</a></li>
+                <li class="redirect"><a href="#">User</a></li>
+                <div class="user"> </div>
+            </ul>
+        </nav>
+    </div>
+
+    <h2 class="titulo-secundario">Produção de texto - Crônica</h2>
+
+    <div class="container">
+        <textarea id="editor1">
+
+        </textarea>
+    </div>
+
+    <script>
+        CKEDITOR.replace('editor1', {
+            // Define the toolbar: http://docs.ckeditor.com/ckeditor4/docs/#!/guide/dev_toolbar
+            toolbar: [{
+                    name: 'document',
+                    items: ['Print']
+                },
+                {
+                    name: 'clipboard',
+                    items: ['Undo', 'Redo']
+                },
+                {
+                    name: 'styles',
+                    items: ['Format', 'Font', 'FontSize']
+                },
+                {
+                    name: 'basicstyles',
+                    items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat', 'CopyFormatting']
+                },
+                {
+                    name: 'colors',
+                    items: ['TextColor', 'BGColor']
+                },
+                {
+                    name: 'align',
+                    items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']
+                },
+                {
+                    name: 'links',
+                    items: ['Link', 'Unlink']
+                },
+                {
+                    name: 'paragraph',
+                    items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote']
+                },
+                {
+                    name: 'insert',
+                    items: ['Image', 'Table']
+                },
+                {
+                    name: 'tools',
+                    items: ['Maximize']
+                },
+                {
+                    name: 'editing',
+                    items: ['Scayt']
+                }
+            ],
+            height: 700,
+            customConfig: '',
+            disallowedContent: 'img{width,height,float}',
+            extraAllowedContent: 'img[width,height,align]',
+            extraPlugins: 'tableresize,uploadimage,uploadfile',
+            contentsCss: ['https://cdn.ckeditor.com/4.8.0/full-all/contents.css', 'mystyles.css'],
+            bodyClass: 'document-editor',
+            format_tags: 'p;h1;h2;h3;pre',
+            removeDialogTabs: 'image:advanced;link:advanced',
+        });
+    </script>
+    <div class="flex">
+        <div class="inline">
+            <a href="#"><button class="entrar post">Voltar</button></a>
+            <button class="entrar post width">Gerar PDF</button>
+            <button class="entrar post">Enviar</button>
+        </div>
+    </div>
+    <footer>
+        <p class="rodape">Copyright &copy; Douglas Profirio Ferreira</p>
+    </footer>
+</body>
+
+</html>
